@@ -1,13 +1,13 @@
 # WDPLLC.github.io
 
-WD Plumbing Website
+# WD Plumbing Website
 Overview
 This project is a web development initiative for WD Plumbing, a professional plumbing service based in South Carolina. The website is designed to provide a comprehensive online presence for WD Plumbing, showcasing their services, expertise, and contact information.
 
-Project Structure
+# Project Structure
 The project consists of a single-page application with the following main sections:
 
-Navbar: A navigation bar providing quick links to different sections of the website.
+# Navbar: A navigation bar providing quick links to different sections of the website.
 Hero Section: A prominent display introducing WD Plumbing with engaging visuals and a call-to-action button.
 Services Section: Detailed information about the various plumbing services offered.
 Gallery: A carousel of images showcasing past projects and work quality.
