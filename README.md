@@ -7,7 +7,7 @@ This project is a web development initiative for WD Plumbing, a professional plu
 # Project Structure
 The project consists of a single-page application with the following main sections:
 
-# Navbar: A navigation bar providing quick links to different sections of the website.
+Navbar: A navigation bar providing quick links to different sections of the website.
 Hero Section: A prominent display introducing WD Plumbing with engaging visuals and a call-to-action button.
 Services Section: Detailed information about the various plumbing services offered.
 Gallery: A carousel of images showcasing past projects and work quality.
@@ -22,7 +22,8 @@ Responsive design ensuring compatibility with various devices and screen sizes.
 Interactive carousel for displaying images in the Gallery section.
 Smooth scrolling for enhanced user experience.
 Integration of Google Maps for easy location referencing.
-Setup and Usage
+
+#Setup and Usage
 To use this project:
 
 Clone the repository to your local machine.
