@@ -23,7 +23,7 @@ Interactive carousel for displaying images in the Gallery section.
 Smooth scrolling for enhanced user experience.
 Integration of Google Maps for easy location referencing.
 
-#Setup and Usage
+# Setup and Usage
 To use this project:
 
 Clone the repository to your local machine.
