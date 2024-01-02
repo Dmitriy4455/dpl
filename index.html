@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wayne Denlinger Plumbing</title>
+    <link rel="shortcut icon" href="assets/images/wdp.ico" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Outfit"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <!-- Insert your logo image or text here -->
+        <img src="assets/images/wdp_logo.png" alt="Logo" />
+      </div>
+      <div class="nav-links">
+        <a onclick="scrollToSection('services')" href="#services">Services</a>
+        <a onclick="scrollToSection('gallery')" href="#gallery">Gallery</a>
+        <a onclick="scrollToSection('about')" href="#about">About</a>
+        <a onclick="scrollToSection('about')" href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h1>
+        Working Heartily <br />
+        For A Higher Purpose
+        <span style="font-size: 15px; font-weight: 100">COL 3:23</span>
+      </h1>
+
+      <p>
+        Boasting over two decades of professional <br />plumbing expertise,
+        we're committed <br />to delivering dedicated service and unmatched
+        <br />
+        precision in every commercial project.
+      </p>
+      <button onclick="scrollToSection('about')" class="callnow-button">
+        Start Today
+      </button>
+    </div>
+    <div class="parallax-transition">
+      <div class="centered-box">
+        <p>We Deliver On A Variery <br />Of Commercial Projects</p>
+      </div>
+    </div>
+
+    <div class="content" id="services">
+      <h1>Our Expertise At A Glance</h1>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <img
+          src="assets/images/commercial.png"
+          alt="Image 1"
+          class="card-image"
+          style="height: 200px; width: 200px"
+        />
+        <h3>New Commercial Installation</h3>
+      </div>
+      <div class="card">
+        <img
+          src="assets/images/repair.jpeg"
+          alt="Image 2"
+          class="card-image"
+          style="height: 200px; width: 200px"
+        />
+        <h3>Gas Piping</h3>
+      </div>
+      <div class="card">
+        <img
+          src="assets/images/fitting.png"
+          alt="Image 3"
+          class="card-image"
+          style="height: 200px; width: 200px"
+        />
+        <h3>Water Heater Replacement</h3>
+      </div>
+    </div>
+
+    <div class="content" id="services">
+      <h1>We Specialize In New Commercial Installation</h1>
+      <div class="services-list">
+        <div class="service-item">
+          <i class="fas fa-wrench"></i>
+          <p>Underground</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-wrench"></i>
+          <p>Second Wall Rough</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-wrench"></i>
+          <p>Finish</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content" id="gallery">
+      <h1>Project Gallery</h1>
+    </div>
+
+    <div class="carousel" id="gallery" style="border-radius: 5%">
+      <div class="carousel-images">
+        <img src="assets/images/im1.jpg" alt="Image 1" />
+        <img src="assets/images/im2.jpg" alt="Image 2" />
+        <img src="assets/images/im3.jpg" alt="Image 3" />
+        <img src="assets/images/im4.jpg" alt="Image 4" />
+        <img src="assets/images/im4.jpg" alt="Image 5" />
+        <!-- Add more images as needed -->
+      </div>
+      <button class="carousel-button prev" onclick="moveSlide(-1)">
+        &#10094;
+      </button>
+      <button class="carousel-button next" onclick="moveSlide(1)">
+        &#10095;
+      </button>
+    </div>
+
+    <div class="content" id="about">
+      <h1>About</h1>
+      <div class="about-card" id="about">
+        <div class="about-text">
+          <h3>Wayne Denlinger</h3>
+          <h2>Owner & Operator @ WDP</h2>
+
+          <p style="font-weight: 100">
+            Wayne has over 23 years of dedicated experience in commercial
+            plumbing. Having begun his journey as an apprentice, Wayne has
+            contributed to numerous projects, including office spaces and
+            commercial up-fits, earning a reputation for precision and
+            efficiency.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <h1>Contact Us</h1>
+    </div>
+
+    <div class="content" id="contact">
+      <p>Email: <a href="mailto:wgd6599@icloud.com">wgd6599@icloud.com</a></p>
+      <p>Phone: <a href="tel:+19376233102">937 623 3102</a></p>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d262903.88825943583!2d-80.2883724254734!3d33.012843558578!2m3!1f0!2f0!3f0!3m2!1i1024!1i768!4f13.1!3m3!1m2!1s0x88fe7a42dca5b0f9%3A0x7bf25926de26a6a4!2sSummerville%2C%20SC%2C%20USA!5e0!3m2!1sen!2s!4v1656175029324!5m2!1sen!2s"
+          width="400"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </div>
+    <script src="carousel.js"></script>
+    <script src="scroll.js"></script>
+  </body>
+</html>

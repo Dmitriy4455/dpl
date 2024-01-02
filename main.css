@@ -1,0 +1,264 @@
+body {
+  background-color: #1d4a74;
+  font-family: "Outfit";
+  font-size: 22px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d4a74; /* Or any color you prefer */
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.logo img {
+  /* Adjust size as needed */
+  width: 150px;
+  height: auto;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 60px; /* Space between links */
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold;
+  align-items: center;
+}
+
+.nav-links a:hover {
+  color: #14b2e2; /* Color change on hover */
+}
+
+.hero {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px 20px;
+}
+
+.hero h1 {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+}
+
+.callnow-button {
+  background-color: #14b2e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 101px;
+}
+
+.callnow-button:hover {
+  background-color: #1191a8; /* Darker shade for hover effect */
+}
+
+.parallax-transition {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.067), rgba(0, 0, 0, 0.007)),
+    url("assets/images/banner.jpg");
+  height: 40vh;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+  position: relative;
+  background-position: 0 0, 50% 85%;
+  background-attachment: scroll, fixed;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  width: 100%; /* Set width to 100% */
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+}
+
+.centered-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the box */
+  background-color: rgba(0, 0, 0, 0.705); /* Semi-transparent black */
+  color: white; /* Text color */
+  padding: 20px; /* Padding inside the box */
+  width: 50%; /* Width of the box */
+  text-align: center; /* Align text inside the box */
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.centered-box p {
+  margin: 0; /* Remove default paragraph margin */
+  /* Additional styling for your text */
+}
+
+.carousel {
+  position: relative;
+  max-width: 600px; /* Adjust as needed */
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-images img {
+  width: 100%;
+  display: none;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 100;
+}
+
+.carousel-button.prev {
+  left: 0;
+}
+
+.carousel-button.next {
+  right: 0;
+}
+
+.content h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #0a152f;
+  color: white;
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  width: 300px; /* Width of each card */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Additional styling for responsive behavior */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.services-list {
+  /* If you want to center the list */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns items to the start of the container */
+  margin-left: 100px;
+  color: white;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Space between items */
+}
+
+.service-item i {
+  color: #0a152f; /* Icon color */
+  margin-right: 10px; /* Space between icon and text */
+  font-size: 1.2em; /* Icon size */
+}
+
+.service-item p {
+  margin: 0;
+  /* Add any specific styling for the text here */
+}
+
+.fas.fa-wrench {
+  color: white;
+}
+
+#about {
+  /* Style your about section */
+  padding: 20px;
+  margin-top: 100px; /* Adjust as needed */
+  color: white;
+}
+
+.about-card {
+  text-align: center;
+
+  max-width: 300px; /* Adjust as needed */
+  margin: auto; /* Center the card */
+  margin-top: None;
+  background-color: #0a152f;
+  color: white;
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  width: 300px; /* Width of each card */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
+}
+
+.about-text h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.about-text h2 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.about-text p {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#contact h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.map-container {
+  margin-top: 20px;
+}
+
+.map-container iframe {
+  width: 50%; /* Responsive width */
+  height: 450px; /* Adjust height as needed */
+  border: none;
+  border-radius: 10px; /* Optional: Rounded corners for the map */
+}
