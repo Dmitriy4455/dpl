@@ -81,19 +81,30 @@ body {
   background-color: #1191a8;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
 /* Параллакс блок */
 .parallax-transition {
   background-image: linear-gradient(rgba(0, 0, 0, 0.067), rgba(0, 0, 0, 0.007)),
-    url("assets/images/banner.jpg");
+    url("img/commercial.jpg");
   height: 40vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
+  overflow: hidden;
 }
 
 .centered-box {
@@ -307,14 +318,23 @@ body {
   }
 
   .map-container {
-    margin-top: 20px;
+    padding: 40px 20px;
+    text-align: center;
   }
 
-  .map-container iframe {
-    width: 50%; /* Responsive width */
-    height: 450px; /* Adjust height as needed */
-    border: none;
-    border-radius: 10px; /* Optional: Rounded corners for the map */
+  .map-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    aspect-ratio: 1 / 1; /* Квадратная форма */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .map-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
   }
 
   .contact-buttons-wrapper {
