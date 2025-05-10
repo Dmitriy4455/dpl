@@ -65,6 +65,31 @@ body {
   color: white;
 }
 
+body {
+  margin: 0; /* Убираем стандартные отступы от краев страницы */
+  padding: 0;
+}
+
+.centered-text {
+  text-align: center; /* Выравнивает по центру */
+  font-size: 150px; /* Размер шрифта для Vini, Vidi, Fixi */
+  font-family: "Arial", sans-serif; /* Обычный шрифт */
+  font-weight: bold; /* Делаем текст жирным */
+  text-transform: uppercase; /* Преобразуем все буквы в верхний регистр */
+  margin-top: 200px; /* Добавляем отступ сверху */
+  margin-bottom: 100px; /* Добавляем отступ снизу */
+}
+
+.larger-text {
+  text-align: center; /* Выравнивает по центру */
+  font-size: 200px; /* Увеличиваем размер шрифта для We came... */
+  font-family: "Arial", sans-serif; /* Обычный шрифт */
+  font-weight: normal; /* Без жирности для второго текста */
+  text-transform: none; /* Оставляем текст в обычном регистре */
+  margin-top: 30px; /* Добавляем отступ сверху */
+  margin-bottom: 200px; /* Добавляем отступ снизу */
+}
+
 .callnow-button {
   background-color: #14b2e2;
   color: white;
