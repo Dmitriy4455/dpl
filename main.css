@@ -1,5 +1,6 @@
 /* Общие стили */
 body {
+  padding-top: 70px; /* подстрой под высоту твоей navbar */
   background-color: #1d4a74;
   font-family: "Outfit";
   font-size: 22px;
@@ -28,6 +29,12 @@ body {
   background-color: #1d4a74;
   color: white;
   padding: 0 20px;
+
+  position: fixed; /* Держит navbar всегда наверху */
+  top: 0; /* Прилепляет к самому верху */
+  width: 100%; /* На всю ширину экрана */
+  z-index: 1000; /* Чтобы не прятался под другим контентом */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Опционально — небольшая тень */
 }
 
 .logo img {
