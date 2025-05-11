@@ -29,6 +29,7 @@ body {
   background-color: #1d4a74;
   color: white;
   padding: 0 20px;
+  box-sizing: border-box;
 
   position: fixed; /* Держит navbar всегда наверху */
   top: 0; /* Прилепляет к самому верху */
