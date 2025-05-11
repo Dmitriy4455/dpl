@@ -84,7 +84,7 @@ body {
   font-family: "Arial", sans-serif; /* Обычный шрифт */
   font-weight: bold; /* Делаем текст жирным */
   text-transform: uppercase; /* Преобразуем все буквы в верхний регистр */
-  margin-top: 50px; /* Добавляем отступ сверху */
+  margin-top: 200px; /* Добавляем отступ сверху */
   margin-bottom: 25px; /* Добавляем отступ снизу */
 }
 
