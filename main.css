@@ -43,12 +43,24 @@ body {
   height: auto;
 }
 
+.nav-links {
+  display: flex;
+  justify-content: space-between; /* равномерно распределить кнопки */
+  width: 100%; /* занять всю ширину контейнера */
+  margin-top: 70px;
+  max-width: 600px; /* например, ограничим ширину меню (подкорректируй по необходимости) */
+  margin-left: auto; /* чтобы меню прижалось к правому краю navbar */
+}
+
 .nav-links a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
+  flex-grow: 1; /* каждая ссылка занимает одинаковое место */
+  text-align: center; /* текст по центру кнопки */
+  margin-left: 0; /* убираем сдвиг слева */
+  padding: 10px 0; /* вертикальные отступы, можно добавить горизонтальные */
   font-size: 18px;
   font-weight: bold;
+  color: white;
+  text-decoration: none;
   transition: color 0.3s;
 }
 
@@ -316,8 +328,8 @@ h1 {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: 30px;
-  margin-bottom: 100px;
+  /* margin-top: 30px; */
+  margin-bottom: 30px;
   background-color: #1e1e1e;
   color: #f0f0f0;
   padding: 10px 16px;
