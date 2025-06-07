@@ -482,3 +482,40 @@ h1 {
   font-size: 1.5rem;
   cursor: pointer;
 }
+.review-buttons-wrapper {
+  text-align: center;
+  margin-top: 20px;
+  gap: 15px;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review-button {
+  background-color: #0052cc; /* основной цвет сайта */
+  color: white;
+  font-family: "Arial", sans-serif; /* шрифт сайта */
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* расстояние между иконкой и текстом */
+  transition: background-color 0.3s ease;
+}
+
+.review-button i {
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+}
+
+.review-button:hover {
+  background-color: #003d99; /* темнее при наведении */
+  color: white;
+  text-decoration: none;
+}
