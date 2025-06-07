@@ -30,3 +30,8 @@ document.querySelectorAll(".card").forEach((card) => {
     openModal(service);
   });
 });
+
+function togglePrices() {
+  const content = document.getElementById("price-content");
+  content.classList.toggle("hidden");
+}
