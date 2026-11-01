@@ -353,6 +353,98 @@ h1 {
   border-radius: 10px;
 }
 
+/* CONTACT FORM */
+
+.contact-form-container {
+  max-width: 600px;
+  width: 100%;
+  margin: 40px auto 0;
+  text-align: left;
+  color: white;
+}
+
+.contact-form-container h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-form-container > p {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ccc;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 15px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #888;
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-submit {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-submit:hover {
+  background-color: #2b2b2b;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .contact-form-container {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .contact-submit {
+    width: 100%;
+  }
+}
+
 /* Адаптивность */
 @media (max-width: 1024px) {
   .hero h1 {
