@@ -3,30 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DPL</title>
-    <!-- SEO meta tags -->
+
+    <title>DPL | Plumbing & Heating Services in London & Essex</title>
+
+    <!-- SEO -->
     <meta
       name="title"
       content="DPL — Reliable Plumbing & Heating Services in London & Essex"
     />
     <meta
       name="description"
-      content="Reliable plumbing and heating services by DPL — from a dripping tap to complete installations. Proudly serving London and Essex since 2015. Get a free assessment today."
+      content="Reliable plumbing and heating services by DPL. From dripping taps to plumbing installations. Serving London and Essex since 2015. Get in touch today."
     />
     <meta
       name="keywords"
-      content="plumber, plumbing, heating, pipefitting, leak detection, plumbing services, tap repair, radiator installation, toilet repair, plumbing inspection, local plumber, leaking tap, DPL, London plumber, Essex plumber, East London plumber, North London plumbing, plumbing in Stratford, Romford plumbing, Ilford plumber, Barking plumbing, Redbridge heating services"
+      content="plumber, plumbing, heating, pipefitting, leak detection, tap repair, radiator installation, toilet repair, London plumber, Essex plumber, East London plumber"
     />
     <meta name="author" content="DPL" />
 
-    <!-- Open Graph for social media preview -->
+    <!-- Open Graph -->
     <meta
       property="og:title"
       content="DPL — Reliable Plumbing & Heating Services"
     />
     <meta
       property="og:description"
-      content="Serving London and Essex. No job too small. Get expert plumbing and heating today."
+      content="Professional plumbing and heating services in London and Essex. Established in 2015."
     />
     <meta
       property="og:image"
@@ -34,330 +36,469 @@
     />
     <meta property="og:url" content="https://dmitriy4455.github.io/dpl/" />
     <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="img/logo.png" />
-    <link rel="stylesheet" href="main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Outfit"
-      rel="stylesheet"
-    />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-    <!-- Google tag (gtag.js) -->
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Google Analytics -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-BQQFNSZBRB"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
+
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
 
+      gtag("js", new Date());
       gtag("config", "G-BQQFNSZBRB");
     </script>
-  
-    
-  <body>
-    <div class="background-container"></div>
-    <div class="navbar">
+  </head>
+
+  <body id="top">
+    <!-- Background -->
+    <div class="background-container" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <header class="navbar">
       <div class="logo">
-        <a href="#top">
-          <img src="img/logo.png" alt="Logo" />
+        <a href="#top" aria-label="DPL Home">
+          <img src="img/logo.png" alt="DPL Plumbing and Heating Logo" />
         </a>
       </div>
-    </div>
-      <div class="nav-links">
-        <a href="#services" onclick="scrollToSection('services')">Services</a>
-        <a href="#gallery" onclick="scrollToSection('gallery')">Gallery</a>
-        <a href="#about" onclick="scrollToSection('about')">Prices</a>
-        <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
-      </div>
-    
 
-    <div class="hero">
-      <h1 class="centered-text">Veni Vidi Fixi</h1>
-      <p class="larger-text">
-        We came <br />
-        We saw <br />
-        We fixed it
-      </p>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">Prices</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-      <p>
-        Established in 2015, DPL brings extensive experience in both domestic
-        plumbing and heating, as well as commercial plumbing and pipefitting.
-        With a solid background in British industry standards and full
-        professional qualifications, every project is handled with precision and
-        care. Whether it's a small domestic repair or a more complex industrial
-        system installation, DPL approaches each job with the same level of
-        commitment to quality and customer satisfaction. Providing efficient,
-        reliable, and lasting solutions, DPL ensures that all plumbing and
-        heating systems are installed, maintained, and repaired to the highest
-        standard, offering peace of mind to every client.
-      </p>
-      <button onclick="scrollToSection('contact')" class="callnow-button">
-        Start Today
-      </button>
-    </div>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1 class="centered-text">Veni Vidi Fixi</h1>
 
-    <div class="parallax-transition">
-      <div class="centered-box">
-        <p>We Deliver On A Variety <br />Of Plumbing Solution</p>
-      </div>
-    </div>
+        <p class="larger-text">
+          We came<br />
+          We saw<br />
+          We fixed it
+        </p>
 
-    <div class="content" id="services">
-      <h1>Our Expertise At A Glance</h1>
-    </div>
+        <p>
+          Established in 2015, DPL brings extensive experience in both domestic
+          plumbing and heating, as well as commercial plumbing and pipefitting.
+          With a solid background in British industry standards and professional
+          qualifications, every project is handled with precision and care.
+          Whether it's a small domestic repair or a more complex industrial
+          system installation, DPL approaches each job with the same level of
+          commitment to quality and customer satisfaction. Providing efficient,
+          reliable and lasting solutions, DPL ensures that plumbing and heating
+          systems are installed, maintained and repaired to a high standard.
+        </p>
 
-    <div class="card-container">
-      <div class="card">
-        <img src="img/drop.png" alt="Image 1" class="card-image" />
-        <h3>Leaks</h3>
-      </div>
-      <div class="card">
-        <img src="img/ptrap.png" alt="Image 2" class="card-image" />
-        <h3>Plumbing</h3>
-      </div>
-      <div class="card">
-        <img src="img/spanner.png" alt="Image 3" class="card-image" />
-        <h3>Heating</h3>
-      </div>
-      <div class="card">
-        <img src="img/fiting.png" alt="Image 3" class="card-image" />
-        <h3>Pipefitting</h3>
-      </div>
-    </div>
+        <button
+          type="button"
+          class="callnow-button"
+          onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})"
+        >
+          Start Today
+        </button>
+      </section>
 
-    <!-- Modal Template -->
-    <div id="modal" class="modal hidden">
-      <div class="modal-content">
-        <span class="close-button" onclick="closeModal()">&times;</span>
-        <h2 id="modal-title">Title</h2>
-        <p id="modal-text">Description</p>
-      </div>
-    </div>
-
-    <div class="content" id="services">
-      <h1>We Specialise In Plumbing And Heating Solutions</h1>
-      <div class="services-list">
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Tap and toilet repairs or replacements</p>
-        </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Sink, basin, bath, and shower repairs and installations</p>
-        </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Leaking pipes and joints</p>
-        </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Drain unblocking and waste pipe fixes</p>
-        </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Water pressure problems diagnosed and corrected</p>
-        </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
+      <!-- Parallax Section -->
+      <section class="parallax-transition">
+        <div class="centered-box">
           <p>
-            Valve repairs and replacements (stopcocks, isolation valves, etc.)
+            We Deliver A Variety<br />
+            Of Plumbing Solutions
           </p>
         </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Water tank cleaning, repairs, and ball valve replacements</p>
+      </section>
+
+      <!-- Services Overview -->
+      <section class="content" id="services">
+        <h1>Our Expertise At A Glance</h1>
+
+        <div class="card-container">
+          <div class="card">
+            <img
+              src="img/drop.png"
+              alt="Water leak repair"
+              class="card-image"
+            />
+            <h3>Leaks</h3>
+          </div>
+
+          <div class="card">
+            <img
+              src="img/ptrap.png"
+              alt="Plumbing installation"
+              class="card-image"
+            />
+            <h3>Plumbing</h3>
+          </div>
+
+          <div class="card">
+            <img
+              src="img/spanner.png"
+              alt="Heating maintenance"
+              class="card-image"
+            />
+            <h3>Heating</h3>
+          </div>
+
+          <div class="card">
+            <img
+              src="img/fiting.png"
+              alt="Pipefitting services"
+              class="card-image"
+            />
+            <h3>Pipefitting</h3>
+          </div>
         </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Overflow pipe issues and cold water storage troubleshooting</p>
-        </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Pipework installation and replacement</p>
-        </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Radiator installation, relocation, and replacement</p>
-        </div>
-        <div class="service-item">
-          <i class="fas fa-wrench"></i>
-          <p>Radiator valve replacements and balancing</p>
+      </section>
+
+      <!-- Service Modal -->
+      <div id="modal" class="modal hidden" aria-hidden="true">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close-button"
+            onclick="closeModal()"
+            aria-label="Close modal"
+          >
+            &times;
+          </button>
+
+          <h2 id="modal-title">Title</h2>
+          <p id="modal-text">Description</p>
         </div>
       </div>
-    </div>
 
-    <div class="content" id="gallery">
-      <h1>Project Gallery</h1>
-    </div>
+      <!-- Detailed Services -->
+      <section class="content">
+        <h1>We Specialise In Plumbing And Heating Solutions</h1>
 
-    <div class="carousel" id="gallery">
-      <div class="carousel-images">
-        <img src="img/1.webp" alt="Image 1" />
-        <img src="img/2.webp" alt="Image 2" />
-        <img src="img/3.webp" alt="Image 3" />
-        <img src="img/4.webp" alt="Image 4" />
-        <img src="img/5.webp" alt="Image 5" />
-        <img src="img/6.webp" alt="Image 6" />
-      </div>
-      <button class="carousel-button prev" onclick="moveSlide(-1)">
-        &#10094;
-      </button>
-      <button class="carousel-button next" onclick="moveSlide(1)">
-        &#10095;
-      </button>
-    </div>
+        <div class="services-list">
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Tap and toilet repairs or replacements</p>
+          </div>
 
-    <div class="content" id="about">
-      <h1>Prices</h1>
-    </div>
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Sink, basin, bath, and shower repairs and installations</p>
+          </div>
 
-    <div class="content-container">
-      <div class="content-text">
-        <h2 class="toggle-title" onclick="togglePrices()">View Prices</h2>
-    <div id="price-content" class="hidden">
-        <p>First hour £70 flat,</p>
-        <p>then £30 per additional 30 minutes.</p>
-        <p>Free assessment before any work begins.</p>
-        <p>No hidden charges.</p>
-        <p>All work comes with a 12-month guarantee.</p>
-        <p>Time depends on access and condition of parts.</p>
-        <p>Work is only carried out after customer approval.</p>
-        <p>Estimated Duration of Typical Plumbing Jobs:</p>
-        <div class="job-times">
-          <p>• Tap replacement or repair – 30 to 60 minutes</p>
-          <p>
-            • Toilet system repair (flush issues, leaks, fill valve) – 45 to 90
-            minutes
-          </p>
-          <p>• Sink or basin unblocking – 30 to 60 minutes</p>
-          <p>• Replacing siphon or flush mechanism – 60 to 90 minutes</p>
-          <p>• Minor pipe leaks or tightening joints – 30 to 60 minutes</p>
-          <p>
-            • Radiator bleeding or small valve replacement – 30 to 45 minutes
-          </p>
-          <p>
-            • Thermostatic radiator valve (TRV) installation – 60 to 90 minutes
-          </p>
-          <p>• Replacing or moving a radiator – 90 to 120 minutes</p>
-          <p>• Replace toilet cistern or pan - 90 to 120 minutes</p>
-          <p>• Replacing basin or sink – 90 to 120 minutes</p>
-          <p>• Installation or replacing bath – 180 to 300 minutes</p>
-          <p>• General plumbing checks or inspections – around 30 minutes</p>
-          <p>
-            • All time estimates are approximate and provided for general
-            guidance only. Final pricing will be confirmed with the customer
-            prior to any work being carried out.
-          </p>
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Leaking pipes and joints</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Drain unblocking and waste pipe fixes</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Water pressure problems diagnosed and corrected</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>
+              Valve repairs and replacements (stopcocks, isolation valves, etc.)
+            </p>
+          </div>
+
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Water tank cleaning, repairs, and ball valve replacements</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Overflow pipe issues and cold water storage troubleshooting</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Pipework installation and replacement</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Radiator installation, relocation, and replacement</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fas fa-wrench" aria-hidden="true"></i>
+            <p>Radiator valve replacements and balancing</p>
+          </div>
         </div>
+      </section>
+
+      <!-- Project Gallery -->
+      <section class="content" id="gallery">
+        <h1>Project Gallery</h1>
+
+        <div class="carousel">
+          <div class="carousel-images">
+            <img src="img/1.webp" alt="Plumbing project 1" />
+            <img src="img/2.webp" alt="Plumbing project 2" />
+            <img src="img/3.webp" alt="Plumbing project 3" />
+            <img src="img/4.webp" alt="Plumbing project 4" />
+            <img src="img/5.webp" alt="Plumbing project 5" />
+            <img src="img/6.webp" alt="Plumbing project 6" />
+          </div>
+
+          <button
+            type="button"
+            class="carousel-button prev"
+            onclick="moveSlide(-1)"
+            aria-label="Previous image"
+          >
+            &#10094;
+          </button>
+
+          <button
+            type="button"
+            class="carousel-button next"
+            onclick="moveSlide(1)"
+            aria-label="Next image"
+          >
+            &#10095;
+          </button>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <div class="contact" id="contact">
-      <h1>Contact Us</h1>
+      <!-- Prices -->
+      <section class="content" id="about">
+        <h1>Prices</h1>
 
-      <div class="content" id="contact">
+        <div class="content-container">
+          <div class="content-text">
+            <h2
+              class="toggle-title"
+              onclick="togglePrices()"
+              role="button"
+              tabindex="0"
+              aria-controls="price-content"
+            >
+              View Prices
+            </h2>
+
+            <div id="price-content" class="hidden">
+              <p>First hour £70 flat.</p>
+              <p>Then £30 per additional 30 minutes.</p>
+              <p>Free assessment before any work begins.</p>
+              <p>No hidden charges.</p>
+              <p>All work comes with a 12-month guarantee.</p>
+              <p>Time depends on access and condition of parts.</p>
+              <p>Work is only carried out after customer approval.</p>
+
+              <p>Estimated Duration of Typical Plumbing Jobs:</p>
+
+              <div class="job-times">
+                <p>• Tap replacement or repair – 30 to 60 minutes</p>
+
+                <p>
+                  • Toilet system repair (flush issues, leaks, fill valve) – 45
+                  to 90 minutes
+                </p>
+
+                <p>• Sink or basin unblocking – 30 to 60 minutes</p>
+
+                <p>• Replacing siphon or flush mechanism – 60 to 90 minutes</p>
+
+                <p>
+                  • Minor pipe leaks or tightening joints – 30 to 60 minutes
+                </p>
+
+                <p>
+                  • Radiator bleeding or small valve replacement – 30 to 45
+                  minutes
+                </p>
+
+                <p>
+                  • Thermostatic radiator valve (TRV) installation – 60 to 90
+                  minutes
+                </p>
+
+                <p>• Replacing or moving a radiator – 90 to 120 minutes</p>
+
+                <p>• Replacing toilet cistern or pan – 90 to 120 minutes</p>
+
+                <p>• Replacing basin or sink – 90 to 120 minutes</p>
+
+                <p>• Installation or replacing bath – 180 to 300 minutes</p>
+
+                <p>
+                  • General plumbing checks or inspections – around 30 minutes
+                </p>
+
+                <p>
+                  All time estimates are approximate and provided for general
+                  guidance only. Final pricing will be confirmed with the
+                  customer before any work is carried out.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <h1>Contact Us</h1>
+
+        <!-- Contact Buttons -->
         <div class="contact-buttons-wrapper">
           <a href="tel:+447417515125" class="contact-button">
-            <i class="fas fa-phone"></i> 07417515125
+            <i class="fas fa-phone" aria-hidden="true"></i>
+            07417515125
           </a>
+
           <a
-            href="https://wa.me/+447417515125"
+            href="https://wa.me/447417515125"
             class="contact-button"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <i class="fab fa-whatsapp"></i> WhatsApp
-         <a href="mailto:dmitplum@gmail.com" class="contact-button">
-  <i class="fas fa-envelope"></i> Email
-</a>
-<a
-  href="https://www.youtube.com/@DPL-services"
-  class="contact-button"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <i class="fab fa-youtube"></i> YouTube
-</a>
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            WhatsApp
+          </a>
+
+          <a href="mailto:dmitplum@gmail.com" class="contact-button">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            Email
+          </a>
+
+          <a
+            href="https://www.youtube.com/@DPL-services"
+            class="contact-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+            YouTube
+          </a>
         </div>
 
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+          <h3>Send Us a Message</h3>
 
-<div class="contact-form-container">
-  <h3>Send Us a Message</h3>
-  <p>Have a question or need a plumbing service? Get in touch.</p>
+          <p>Have a question or need a plumbing service? Get in touch.</p>
 
-  <form action="https://formsubmit.co/dmitplum@gmail.com"
-        method="POST"
-        class="contact-form">
+          <form
+            action="https://formsubmit.co/dmitplum@gmail.com"
+            method="POST"
+            class="contact-form"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Enquiry - DPL London"
+            />
 
-    <input type="hidden" name="_subject"
-           value="New Enquiry - DPL London">
+            <input type="hidden" name="_template" value="table" />
 
-    <input type="hidden" name="_template"
-           value="table">
+            <input type="hidden" name="_captcha" value="true" />
 
-    <input type="text" name="_honey"
-           style="display:none">
+            <!-- Spam protection -->
+            <input
+              type="text"
+              name="_honey"
+              style="display: none"
+              tabindex="-1"
+              autocomplete="off"
+            />
 
-    <div class="form-group">
-      <label for="contact-name">Full Name *</label>
-      <input type="text" id="contact-name"
-             name="name" placeholder="Your name"
-             autocomplete="name" required>
-    </div>
+            <div class="form-group">
+              <label for="contact-name">Full Name *</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                placeholder="Your name"
+                autocomplete="name"
+                required
+              />
+            </div>
 
+            <div class="form-group">
+              <label for="contact-email">Email Address *</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                placeholder="Your email address"
+                autocomplete="email"
+                required
+              />
+            </div>
 
-    
-    <div class="form-group">
-      <label for="contact-email">Email Address *</label>
-      <input type="email" id="contact-email"
-             name="email" placeholder="Your email address"
-             autocomplete="email" required>
-    </div>
+            <div class="form-group">
+              <label for="contact-phone">Phone Number</label>
+              <input
+                type="tel"
+                id="contact-phone"
+                name="phone"
+                placeholder="Your phone number"
+                autocomplete="tel"
+              />
+            </div>
 
-    <div class="form-group">
-      <label for="contact-phone">Phone Number</label>
-      <input type="tel" id="contact-phone"
-             name="phone" placeholder="Your phone number"
-             autocomplete="tel">
-    </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input
+                type="text"
+                id="contact-subject"
+                name="subject"
+                placeholder="What is your enquiry about?"
+              />
+            </div>
 
-    <div class="form-group">
-      <label for="contact-subject">Subject</label>
-      <input type="text" id="contact-subject"
-             name="subject"
-             placeholder="What is your enquiry about?">
-    </div>
-
-    <div class="form-group">
-      <label for="contact-message">Your Message *</label>
-      <textarea id="contact-message"
+            <div class="form-group">
+              <label for="contact-message">Your Message *</label>
+              <textarea
+                id="contact-message"
                 name="message"
-                placeholder="Write your message here..."
-                rows="5" required></textarea>
-    </div>
+                placeholder="Describe the plumbing issue..."
+                rows="5"
+                required
+              ></textarea>
+            </div>
 
-    <button type="submit" class="contact-submit">
-      Send Message
-    </button>
+            <button type="submit" class="contact-submit">Send Message</button>
+          </form>
+        </div>
 
-  </form>
-</div>
-
-
-
+        <!-- Google Maps -->
         <div class="map-container">
           <div class="map-wrapper">
             <iframe
@@ -365,43 +506,48 @@
               width="600"
               height="450"
               style="border: 0"
-              allowfullscreen=""
+              allowfullscreen
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+              title="DPL service area map"
+            >
+            </iframe>
           </div>
+
           <p>We serve in London and Essex area.</p>
 
+          <!-- Review Buttons -->
           <div class="review-buttons-wrapper">
             <a
               href="https://uk.trustpilot.com/review/dpl-london.co.uk"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               class="review-button"
             >
-              <i class="fas fa-star"></i> Trustpilot
+              <i class="fas fa-star" aria-hidden="true"></i>
+              Trustpilot
             </a>
 
             <a
               href="https://www.google.co.uk/search?ibp=gwp;0,7&q=DPL&ludocid=15619344604105367222&lsig=AB86z5XFGJj5kU2010WAYERoUf2H"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               class="review-button"
             >
-              <i class="fab fa-google"></i> Google
+              <i class="fab fa-google" aria-hidden="true"></i>
+              Google
             </a>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
+    <!-- JavaScript -->
     <script src="carousel.js"></script>
     <script src="scroll.js"></script>
     <script src="modal.js"></script>
     <script src="js/main.js"></script>
     <script src="tawk.js"></script>
     <script src="tawk-custom.js"></script>
-
-
   </body>
 </html>
